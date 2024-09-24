@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Gowun+Batang:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Caveat:wght@400..700&family=Gowun+Batang:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+  background-color: rgb(186, 175, 240);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+ 
+nav
+{
+  font-family: "Montserrat", sans-serif;
+}
+
+ul
+{
+  background-color: black;
+  color: white;
+  height: 65px;
+  display: flex;
+  list-style-type: none;
+  align-items:center;
+}
+ 
+nav ul li
+{
+  margin:5px;
+  padding-left: 15px;
+}
+
+.logoPic
+{
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.logoPic img
+{
+  width: 44px;
+  padding-right: 5px;
+}
+ 
+.container
+{
+  background-color: rgb(11, 30, 60);
+  color: white;
+  font-family : "Gowun Batang", serif;
+  display: flex;  
+  margin: 50px 150px;
+  margin-bottom: 40px;
+  border-radius: 40px;
+  justify-content: center;
+}
+
+.songList
+{
+  margin: 25px;
+}
+
+.songList h1
+{
+  text-align: center;
+}
+
+.songItemContainer
+{
+    margin-top: 20px;
+}
+
+.songItem
+{
+  width: 500px;
+  height: 70px;
+  display: flex;
+  margin: 12px 0 ;
+  background-color: #fff;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songItem img
+{
+   width: 10%;
+   height: 80%;
+   margin-left: 15px;
+   border-radius: 100%;
+}
+
+.songlistplay
+{
+  display: flex;
+  margin-right: 25px;
+}
+
+.songlistplay i
+{
+  cursor: pointer;
+}
+
+.timestamp 
+{
+  margin-right: 25px;
+   
+}
+
+.bottom
+{
+  position:sticky;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+#myProgressBar
+{
+  width: 80vw;
+  text-align: center;
+}
+
+.icons
+{
+  margin-top: 10px;
+}
+
+.icons i
+{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.songInfo img
+{
+  width: 80px;
+  bottom: 10px;
+  position: absolute;
+  left: 10vw;
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+
+.songInfo h4
+{
+  width: 100%;
+  bottom: 10px;
+  position: absolute;
+  left: 18vw;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+  font-family: "Montserrat", sans-serif;
+}
+
+#myProgressBar
+{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
+}
